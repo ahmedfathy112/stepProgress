@@ -1,0 +1,112 @@
+body {
+  min-height: 100vh;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainPage {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 30px 15px;
+}
+
+.StepProgress {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.StepProgress #step1,
+#step2,
+#step3 {
+  font-size: 23px;
+  font-weight: 600;
+  position: relative;
+  margin-top: 60px;
+}
+.StepProgress #step1 span,
+#step2 span,
+#step3 span {
+  position: absolute;
+  border-radius: 50%;
+  padding: 18px;
+  top: -70px;
+  left: 25%;
+}
+#stepColor3 {
+  background-color: rgb(163, 158, 158);
+}
+#stepColor2 {
+  background-color: rgb(163, 158, 158);
+}
+#stepColor1 {
+  background-color: #2335b4;
+  color: #fff;
+}
+.formSec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.formSec form {
+  width: 100%;
+}
+.formSec div {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.formSec div input {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 1px #333232;
+  font-size: 18px;
+  color: #000;
+}
+.formSec button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: aliceblue;
+  background-color: orange;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btns {
+  display: flex;
+  flex-direction: row-reverse !important;
+  justify-content: space-between !important;
+}
+.btns button {
+  width: 35%;
+}
+/* #sec1 {
+  display: none !important;
+} */
+#sec2 {
+  display: none;
+}
+
+#sec3 {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .mainPage {
+    width: 90%;
+  }
+}

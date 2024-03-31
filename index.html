@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maltuble Steps</title>
+    <link rel="stylesheet" href="design.css" />
+  </head>
+  <body>
+    <main class="mainPage">
+      <section class="StepProgress">
+        <span class="step" id="step1"
+          >personal
+          <span id="stepColor1">1</span>
+        </span>
+        <span class="step" id="step2"
+          >Hobbies
+          <span id="stepColor2">2</span>
+        </span>
+        <span class="step" id="step3"
+          >Contact
+          <span id="stepColor3">3</span>
+        </span>
+      </section>
+      <section class="formSec" id="sec1">
+        <h2 class="formHeadline">Personal Information</h2>
+        <form>
+          <div>
+            <label for="name">Full Name</label>
+            <input type="text" name="name" />
+          </div>
+          <div>
+            <label for="adress">Address</label>
+            <input type="text" name="adress" />
+          </div>
+          <div>
+            <label for="date">BarthDate</label>
+            <input type="date" name="date" />
+          </div>
+          <button type="button" id="btn1">Next</button>
+        </form>
+      </section>
+      <section class="formSec" id="sec2">
+        <h2 class="formHeadline">Hobbies</h2>
+        <form>
+          <div>
+            <label for="name">First Hobbie</label>
+            <input type="text" name="name" />
+          </div>
+          <div>
+            <label for="adress">Second Hobbie</label>
+            <input type="text" name="adress" />
+          </div>
+          <div class="btns">
+            <button type="button" id="btnNext2">Next</button>
+            <button type="button" id="btnPrev2">Previous</button>
+          </div>
+        </form>
+      </section>
+      <section class="formSec" id="sec3">
+        <h2 class="formHeadline">Contact</h2>
+        <form>
+          <div>
+            <label for="name">PhoneNumber</label>
+            <input type="tel" name="name" />
+          </div>
+          <div>
+            <label for="adress">Full Name</label>
+            <input type="text" name="adress" />
+          </div>
+          <div>
+            <label for="adress">Address</label>
+            <input type="text" name="adress" />
+          </div>
+          <div class="btns">
+            <button type="button" id="btnNext3">Submit</button>
+            <button type="button" id="btnPrev3">Previous</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
